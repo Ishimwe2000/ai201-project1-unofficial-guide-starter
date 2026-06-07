@@ -10,8 +10,8 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-
 ---
+recommendations for where to eat in Austin - there are many places with reviews but still hard to narrow down the information. There are different recommendations but also a tendency for places to be overrated without being good enough. Sourcing all this information into one place will help ease the decision making process for a consumer without thinking too much through everything.
 
 ## Documents
 
@@ -20,16 +20,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | | | |https://www.reddit.com/r/austinfood/
+| 2 | | | |https://austin.eater.com/
+| 3 | | | |https://www.opentable.com/s?lang=en-us&covers=2&metroId=33&regionIds[]=65&title=Restaurants%20in%20Austin&ref=15181&SP=ppc_g_us_nontm&cmid=23551531609&aid=195783455249&tid=aud-2434266450883%3Akwd-338341722214&locp=9197266&loci=&mt=e&nw=g&d=c&cid=796697761336&pos=&gad_source=1&gad_campaignid=23551531609&gbraid=0AAAAADqtrPpi7tGeGTLxEwbcI75Zpa8rO&gclid=Cj0KCQjwrZTRBhDSARIsAHidYfdYfJk1MkimzXWuqUWtBLtNbfFvs4E89yG0f4mthtEDzWHXLjXU4OIaAksjEALw_wcB&corrid=29d6d8e0-4017-4f6c-9d9b-d963278dc15c&queryUnderstandingType=none&showMap=true&sortBy=web_conversion
+| 4 | | | |https://feastio.com/best-east-austin-restaurants/
+| 5 | | | |https://www.tripadvisor.com.sg/ShowTopic-g30196-i229-k13842003-Must_eat_restaurants_Austin_TX-Austin_Texas.html
+| 6 | | | |https://alexreichek.com/best-restaurants-austin/
+| 7 | | | |https://bshnuez.substack.com/p/where-to-eat-austin-texas
+| 8 | | | |https://somuchlife.com/best-austin-restaurants/
+| 9 | | | |https://www.instagram.com/austinfoodadventures/?hl=en
+| 10 | | | |https://www.travellikeanna.com/best-restaurants-austin/
 
 ---
 
