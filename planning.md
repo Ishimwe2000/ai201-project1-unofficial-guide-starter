@@ -28,7 +28,7 @@ recommendations for where to eat in Austin - there are many places with reviews 
 | 6 | | | |https://alexreichek.com/best-restaurants-austin/
 | 7 | | | |https://bshnuez.substack.com/p/where-to-eat-austin-texas
 | 8 | | | |https://somuchlife.com/best-austin-restaurants/
-| 9 | | | |https://www.instagram.com/austinfoodadventures/?hl=en
+| 9 | | | |https://www.yelp.com/search?find_desc=food+in+austin&find_loc=Austin%2C+TX+78701&dd_referrer=https%3A%2F%2Fwww.yelp.com%2F
 | 10 | | | |https://www.travellikeanna.com/best-restaurants-austin/
 
 ---
@@ -39,14 +39,20 @@ recommendations for where to eat in Austin - there are many places with reviews 
      State your chunk size (in tokens or characters), overlap size, and explain why those
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
+The chunks here will probably be in small number of characters, reviews are mostly pictures and short text so no long passages to chunk here. The issue will be trying to chunk information with little text and mostly pictures.
+For reviews, one review = one chunk
+for reddit, treat the post title + body as one chunk. For comment threads, chunk by top-level comment + its direct replies (~200–300 tokens), not individual comments.
+
 
 **Chunk size:**
-
+200–300 chars for reviews; 500–800 chars for Reddit posts;
+150–200 chars for picture-heavy blog text
 **Overlap:**
-
+0 — content is opinion-discrete; no meaning spans chunk boundaries
 **Reasoning:**
 
----
+Short opinion text is self-contained. Merging chunks conflates
+distinct opinions and dilutes embedding signal. Picture-heavy sites have sparse text, so metadata prefixing compensates for small chunk size.
 
 ## Retrieval Approach
 
@@ -55,6 +61,7 @@ recommendations for where to eat in Austin - there are many places with reviews 
      If you were deploying this for real users and cost wasn't a constraint, what tradeoffs
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
+     let's use 3 chunks per retrieval to start. using the all-MiniLM-L6-v2 for sentence transformers.
 
 **Embedding model:**
 
@@ -73,9 +80,9 @@ recommendations for where to eat in Austin - there are many places with reviews 
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| 1 | where in Austin can I get good Egyptian inspired BBQ?| KG BBQ|
+| 2 | is loro worth it?| yes loro has multiple food options and meats that are really tasty and many reviewes agree.|
+| 3 | best steakhouse in austin?| 3 results: boa, ruth's chris, hestia.| A question like what is the best should have multiple options as the answer instead of just one answer.
 | 4 | | |
 | 5 | | |
 
@@ -87,9 +94,9 @@ recommendations for where to eat in Austin - there are many places with reviews 
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. The quality of the chunks may not provide the needed information.
 
-2.
+2. Returning the wrong answer due to the provided context.
 
 ---
 
