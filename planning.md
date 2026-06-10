@@ -83,8 +83,8 @@ distinct opinions and dilutes embedding signal. Picture-heavy sites have sparse 
 | 1 | where in Austin can I get good Egyptian inspired BBQ?| KG BBQ|
 | 2 | is loro worth it?| yes loro has multiple food options and meats that are really tasty and many reviewes agree.|
 | 3 | best steakhouse in austin?| 3 results: boa, ruth's chris, hestia.| A question like what is the best should have multiple options as the answer instead of just one answer.
-| 4 | | |
-| 5 | | |
+| 4 | what is the best barbecue in Austin? |la barbeque |
+| 5 | is the weather hot in Austin?| I don't have information about Austin's weather|
 
 ---
 
@@ -111,6 +111,10 @@ distinct opinions and dilutes embedding signal. Picture-heavy sites have sparse 
 ---
 
 ## AI Tool Plan
+
+claude will be the AI tool of choice.
+I will share planning.md with it and expect Python source code back.
+
 
 <!-- For each part of the pipeline below, describe:
      - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.)

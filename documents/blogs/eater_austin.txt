@@ -1,0 +1,55 @@
+SOURCE: blog
+SITE: austin.eater.com
+RESTAURANT: KG BBQ
+NEIGHBORHOOD: South Austin
+CUISINE: Egyptian BBQ
+TEXT: KG BBQ brings Egyptian-spiced flavors to Texas barbecue. The brisket is seasoned with cumin, coriander, and a hint of harissa, creating a deeply savory crust. A must-visit for anyone who thinks they've tried every BBQ joint in Austin.
+---
+SOURCE: blog
+SITE: austin.eater.com
+RESTAURANT: Loro
+NEIGHBORHOOD: South Lamar
+CUISINE: Asian Smokehouse
+TEXT: A collaboration between Aaron Franklin and Uchi's Tyson Cole, Loro does smoked meats with an Asian twist. The smoked brisket fried rice and wagyu beef skewers are standout dishes. The sprawling outdoor space makes it perfect for groups.
+---
+SOURCE: blog
+SITE: feastio.com
+RESTAURANT: La Barbecue
+NEIGHBORHOOD: East Austin
+CUISINE: Texas BBQ
+TEXT: La Barbecue is the East Austin BBQ landmark that locals swear by. The beef ribs are enormous and smoky. Brisket is excellent, and the jalapeño cheddar sausage is underrated. Arrive before noon on weekends.
+---
+SOURCE: blog
+SITE: feastio.com
+RESTAURANT: Hestia
+NEIGHBORHOOD: Downtown Austin
+CUISINE: Contemporary American
+TEXT: Hestia occupies a stunning historic building downtown. The wood-fired cooking philosophy runs through every dish. The wagyu beef tallow candle bread is a signature — warm, rich, and deeply comforting.
+---
+SOURCE: blog
+SITE: travellikeanna.com
+RESTAURANT: Boa Steakhouse
+NEIGHBORHOOD: Downtown Austin
+CUISINE: Steakhouse
+TEXT: Boa Steakhouse sits on the Colorado River with views that make dinner feel like an event. The filet is consistently excellent. Best for a special occasion or impressing out-of-town guests.
+---
+SOURCE: blog
+SITE: somuchlife.com
+RESTAURANT: Loro
+NEIGHBORHOOD: South Lamar
+CUISINE: Asian Smokehouse
+TEXT: Loro is casual but elevated — think picnic tables, great cocktails, and seriously good smoked food. The outdoor patio is huge and dog-friendly. Popular for happy hour, so arrive early to snag a spot.
+---
+SOURCE: blog
+SITE: alexreichek.com
+RESTAURANT: KG BBQ
+NEIGHBORHOOD: South Austin
+CUISINE: Egyptian BBQ
+TEXT: KG BBQ is the most unique barbecue in Austin. Owner brings Egyptian cooking traditions into the Texas smoke scene. Short lines, warm service, and bold flavors you won't find anywhere else in the city.
+---
+SOURCE: blog
+SITE: bshnuez.substack.com
+RESTAURANT: La Barbecue
+NEIGHBORHOOD: East Austin
+CUISINE: Texas BBQ
+TEXT: If you only have time for one BBQ spot in Austin, make it La Barbecue. The beef ribs alone justify the trip. Arrive early, bring cash as backup, and get the sausage alongside your brisket order.
